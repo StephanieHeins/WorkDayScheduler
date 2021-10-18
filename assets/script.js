@@ -3,6 +3,17 @@ var today = moment();
 $("#currentdate").text(today.format("MMM Do, YYYY"));
 
 // Click to Save & store in LocalStorage
+$(function () {
+    $(".saveBtn").on("click", function () {
+        var text = $(this).siblings(".description").val();
+        var time = $(this).parent().attr("id");
+
+        localStorage.setItem(time, text);
+    })
+
+    // Load data from LocalStorage 
+$("#hour9 .description").val(localStorage.getItem("hour9"));
+$("#hour10 .description").val(localStorage.getItem("hour10"));
 
 
 // Change color of blocks depending on time
@@ -30,6 +41,6 @@ function hourTracker() {
         }
     })
 }
-hourTracker();
+    hourTracker();
 
-// Load data from LocalStorage 
+})
