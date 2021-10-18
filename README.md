@@ -7,7 +7,7 @@ Screenshot:
 <img width="1096" alt="Screen Shot 2021-10-17 at 6 43 40 PM" src="https://user-images.githubusercontent.com/15876794/137656630-355242ae-f532-48cc-ac7f-bd24a3af3f0c.png">
 
 How to Use: 
-1. Go to: 
+1. Go to: https://stephanieheins.github.io/WorkDayScheduler/
 2. Enter in the tasks you need to do corresponding with their scheduled times
 3. Click save next to each
 4. Update as day goes on 
